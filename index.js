@@ -1,3 +1,5 @@
+const {ethers} = require("ethers")
+
 const TokenTrasfer = async (amount, receiver) => {
 
     const privateKey = process.env.PRIVATE_KEY
